@@ -1,0 +1,34 @@
+# 1. figure out users' coding status file :
+
+{
+    file_name : {
+        function : [
+            [(function name)],[(user name)]
+        ],
+        class:[
+            [(class name)], [user name],
+        in : [(user name, line)]
+    }
+}
+
+# 2. conflict status :
+
+{
+    conflict function, class, file name : [(user name1), (user name2)]
+}
+
+# 3. approved status :
+
+{
+    approved function, class, file name : [(user name)]
+}
+
+파이썬에서 파일 구조 나오도록 하는거 / 클래스 구조 나오게 하는거
+
+
+
+검사 어프르부
+
+검사 컨플릭트
+
+나머지 코딩 스테이터스
